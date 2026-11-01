@@ -1,0 +1,65 @@
+[
+  {
+    "Name": "ForeverThreat",
+    "DisplayName": "ForeverThreat",
+    "ProjectId": "1713547",
+    "CurseForgeUrl": "https://www.curseforge.com/wow/addons/foreverthreat",
+    "Flavor": "Forever"
+  },
+  {
+    "Name": "AutoReloadForever",
+    "DisplayName": "Auto Reload Forever",
+    "ProjectId": "1735467",
+    "CurseForgeUrl": "https://www.curseforge.com/wow/addons/auto-reload-forever",
+    "Flavor": "Forever"
+  },
+  {
+    "Name": "Bibliotekaren",
+    "DisplayName": "Bibliotekaren",
+    "ProjectId": "1718284",
+    "CurseForgeUrl": "https://www.curseforge.com/wow/addons/bibliotekaren",
+    "Flavor": "Forever"
+  },
+  {
+    "Name": "PostmesterForever",
+    "DisplayName": "Postmester Forever",
+    "ProjectId": "1710871",
+    "CurseForgeUrl": "https://www.curseforge.com/wow/addons/postmester-forever",
+    "Flavor": "Forever"
+  },
+  {
+    "Name": "Postmester-Retail",
+    "DisplayName": "Postmester (Retail)",
+    "ProjectId": "1685758",
+    "CurseForgeUrl": "https://www.curseforge.com/wow/addons/postmester",
+    "Flavor": "Retail"
+  },
+  {
+    "Name": "Sporvakta",
+    "DisplayName": "Sporvakta",
+    "ProjectId": "1735733",
+    "CurseForgeUrl": "https://www.curseforge.com/wow/addons/sporvakta",
+    "Flavor": "Forever"
+  },
+  {
+    "Name": "TaskMaster",
+    "DisplayName": "TaskMaster Forever",
+    "ProjectId": "1737315",
+    "CurseForgeUrl": "https://www.curseforge.com/wow/addons/taskmaster-forever",
+    "Flavor": "Forever"
+  },
+  {
+    "Name": "Tidsvakta",
+    "DisplayName": "Tidsvakta",
+    "ProjectId": "1744697",
+    "CurseForgeUrl": "https://www.curseforge.com/wow/addons/tidsvakta",
+    "Flavor": "Forever"
+  },
+  {
+    "Name": "WarcraftForeverMenPaNorsk",
+    "DisplayName": "Warcraft Forever Men Pa Norsk",
+    "ProjectId": "1698703",
+    "CurseForgeUrl": "https://www.curseforge.com/wow/addons/forever-men-pa-norsk",
+    "Flavor": "Forever"
+  }
+]

@@ -1,0 +1,47 @@
+name: Feature request
+description: Suggest a feature for a published CurseForge addon
+title: "[Feature] "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We welcome ideas for published addons. This issue is public.
+        No access tokens, private logs or account details, please.
+  - type: dropdown
+    id: addon
+    attributes:
+      label: Addon
+      description: Choose the addon you want improved.
+      options:
+        - ForeverThreat
+        - AutoReloadForever
+        - Bibliotekaren
+        - PostmesterForever
+        - Postmester-Retail
+        - Sporvakta
+        - TaskMaster
+        - Tidsvakta
+        - WarcraftForeverMenPaNorsk
+    validations:
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: What would you like added or improved?
+      description: Explain the problem this would solve, not only the proposed UI.
+    validations:
+      required: true
+  - type: textarea
+    id: suggested
+    attributes:
+      label: Suggested behavior
+      description: Describe how it should work in game.
+  - type: input
+    id: version
+    attributes:
+      label: Current addon version (optional)
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or screenshots (optional)

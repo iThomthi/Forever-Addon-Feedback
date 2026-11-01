@@ -1,0 +1,83 @@
+name: Bug report
+description: Report a bug in one of our published CurseForge addons
+title: "[Bug] "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. This issue is **public**. Do not include passwords,
+        access tokens, account details, private chat logs, or unredacted personal data.
+        Only addons currently linked to CurseForge are listed.
+  - type: dropdown
+    id: addon
+    attributes:
+      label: Addon
+      description: Select the published addon affected by this bug.
+      options:
+        - ForeverThreat
+        - AutoReloadForever
+        - Bibliotekaren
+        - PostmesterForever
+        - Postmester-Retail
+        - Sporvakta
+        - TaskMaster
+        - Tidsvakta
+        - WarcraftForeverMenPaNorsk
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Addon version
+      description: Example, v1.0.13
+      placeholder: v0.0.0
+    validations:
+      required: true
+  - type: input
+    id: wow-version
+    attributes:
+      label: WoW version or flavor
+      placeholder: Forever 1.60.1 or Retail
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: A clear description of the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: How can we reproduce the problem?
+      placeholder: |
+        1. Open ...
+        2. Click ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+  - type: textarea
+    id: lua-error
+    attributes:
+      label: Lua error (if any)
+      description: Copy the error and stack trace, but remove any sensitive information.
+      render: text
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or other context
+      description: Drag and drop screenshots here if helpful. Remove private data first.
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Privacy check
+      options:
+        - label: I have removed account secrets, tokens and personal data from this public report.
+          required: true
